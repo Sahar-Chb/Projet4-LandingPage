@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&family=Roboto+Slab&family=Sofia+Sans:ital,wght@0,200;1,400&display=swap');
+
+
+body {
+  background-color: #f6f6f6;
+}
+
+.title{
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  margin-top: 30px;
+  color: #434c53;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.box>input{
+  width: 50%;
+  height: 35px;
+  margin: auto;
+  margin-bottom: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+}
+
+.box>textarea{
+  width:50%;
+  margin: auto;
+  margin-bottom: 15px;
+  
+
+  border: none;
+  border-radius: 8px;
+}
+
+.box>::placeholder{
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  color: #898c8de8;
+}
+
+.box>button{
+  width: 50%;
+  height: 35px;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: #2e55d4;
+  color:white;
+  
+  border-radius: 8px;
+  border: none;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  
+  transition: 0.3s;
+    
+}
+
+.button:hover{
+  background-color: white;
+  color: #2e55d4;
+}
+
+.buttom{
+  background-color: #212224;
+  height: 80px;
+  width: 100%;
+}
+
+.buttom>p{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 30px;
+  
+}
+

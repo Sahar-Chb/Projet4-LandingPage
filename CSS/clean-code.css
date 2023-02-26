@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&family=Roboto+Slab&family=Sofia+Sans:ital,wght@0,200;1,400&display=swap');
+
+
+body {
+  background-color: white;
+}
+
+.box{
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-around;
+  column-gap: 50px;
+  padding: 30px;
+}
+
+.box>img{
+  width: 30%;
+}
+
+.card{
+  height: 180px;
+  width: 950px;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card>h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: #434c53;
+  margin-top: -20px;
+}
+
+.card>p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #9c9c9c;
+  margin-bottom: 40px;
+}
+
+.card>button {
+  width: 20%;
+  height: 40px;
+
+  background-color: white;
+  color: #2e55d4;
+
+  border-color: #2e55d4;
+  border-width: 0.1px;
+  border-radius: 8px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+
+  transition: 0.3s;
+}
+
+.card>button:hover {
+  background-color: #2e55d4;
+  color: white;
+}

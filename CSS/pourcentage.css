@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&family=Roboto+Slab&family=Sofia+Sans:ital,wght@0,200;1,400&display=swap');
+
+
+body {
+  background-color: #f6f6f6;
+}
+
+
+.box1{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.card>h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #434c53;
+  text-align: left;
+}
+
+.card>p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  word-spacing: 2px;
+
+  color: #9c9c9c;
+  margin: 25px 0px;
+}
+
+.card>button{
+  width: 20%;
+  height: 40px;
+
+  background-color: #f6f6f6;
+  color: #2e55d4;
+
+  border-color: #2e55d4;
+  border-width: 0.1px;
+  border-radius: 8px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+
+  transition: 0.3s;
+}
+
+.card>button:hover{
+  background-color: #2e55d4;
+  color: white;
+}
+
+.image{
+  width: 35%;
+  padding: 0px 50px 0px 0px;
+}
+
+.box2{
+  display: flex;
+  margin-top: 20px;
+}
+
+.item{
+  text-align: center;
+
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+}
+
+.item>h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  color: #2e55d4;
+}
+
+.item>h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  color: #636161;
+  letter-spacing: 1px;
+
+  margin-bottom: 30px;
+}
+
+.item>p{
+  font-family: 'Inter', sans-serif;
+  font-size:13px;
+
+  color: #9c9c9c;
+}

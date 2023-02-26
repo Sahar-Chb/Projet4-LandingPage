@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&family=Roboto+Slab&family=Sofia+Sans:ital,wght@0,200;1,400&display=swap');
+
+
+body{
+  background-color: white;
+}
+
+.links{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4c3f37;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+
+}
+
+.link{
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+
+  
+}
+.first-item{
+  margin-left: 63px;
+}
+.btn{
+  border: none;
+  text-align: center;
+  background-color: #2e55d4;
+  color: white;
+  height: 40px;
+  width: 130px;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.87);
+  margin-bottom: 100px;
+  
+}
+
+.button{
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+  margin-top: -25px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: #2e55d4;
+  border: none;
+  transition: 0.3s;
+}
+.card{
+width: 50%;
+margin-top: 30px;
+margin-left: 63px;
+
+}
+
+.card>h1{
+  text-align: left;
+  color: #384857;
+  font-family: 'Inter', sans-serif;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.card>p{
+  text-align: start;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  word-spacing: 2px;
+  color: #838788;
+  margin-bottom: 30px;
+}
+
+.image{
+  width: 30%;
+}
+
+.box{
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 100px;
+  margin-top: -10px;
+}
